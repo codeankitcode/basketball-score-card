@@ -6,13 +6,13 @@ body{
 
 }
 
-h3, h4{
+h1{
     color: #fff;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-weight: 800;
     letter-spacing: 1px;
     margin-bottom: 0;
-    margin-left: .6em;
+    margin-left: .3em;
 }
 
 
@@ -41,12 +41,17 @@ button{
     border: none;
     border-radius: 6px;
     /* width: 30px; */
-    margin-bottom: 20px;
     font-family: sans-serif;
     color: #9AABD8;
     background-color: #1B244A;
     border: 2px solid #9AABD8;
     font-size: 1rem;
     padding: .5em .5em;
-    margin-bottom: 3em;
+    cursor: pointer;
+}
+
+.reset-btn{
+    display: block;
+    margin: .7em 0 3em;
+    padding: .5em 1em;    
 }
