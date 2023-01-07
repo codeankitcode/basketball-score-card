@@ -1,32 +1,52 @@
+
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Martian Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 h3, h4{
     color: #fff;
+    font-size: 1.5rem;
     font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    margin-left: .6em;
 }
 
 
 .container{
     display: flex;
-    justify-content: space-around;
-    background-color: blue;
+    justify-content: space-evenly;
+    background-color: #1B244A;
     max-width: 500px;
     margin: auto;
 }
 
+
 .blank_space{
     background-color: black;
-    max-width: 100px;
-    color: #fff;
+    /* max-width: 70px; */
+    color: #F94F6D;
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: .2em .5em;
+    margin: .2em 0;
+    border-radius: 7px;
 }
 
 button{
     border: none;
-    /* border-radius: 12px; */
+    border-radius: 6px;
     /* width: 30px; */
     margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    font-size: 1rem;
+    padding: .5em .5em;
+    margin-bottom: 3em;
 }
